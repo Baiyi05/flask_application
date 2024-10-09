@@ -1,0 +1,28 @@
+<!-- <!DOCTYPE html>
+<html>
+    <head>
+        <title>Home page</title>
+    </head>
+    <body>
+        <h1>Home Page!</h1>
+        <p>{{content}}</p>
+        <p>{{r}}</p>
+        {% for x in range(10) %}
+            {% if x % 2 == 1 %}
+                <p>{{x}}</p>
+            {% endif %}
+            <p>Hello</p>
+        {% endfor %}
+
+        {% for x in content %}
+            <p>{{x}}</p>
+        {% endfor %}
+    </body>
+</html> -->
+
+{% extends 'base.html' %}
+
+{% block title %}Home page{% endblock %}
+{% block content %}
+    <h1>Test</h1>
+{% endblock %}
